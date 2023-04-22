@@ -15,4 +15,5 @@ int main() {
     delete_point(p1);
     delete_point(p2);
     return 0;
+    pete sa mère cette journée
 }
