@@ -44,7 +44,8 @@ int main () {
                    "4- Add a square\n"
                    "5- Add a rectangle\n"
                    "6- Add a polygon\n"
-                   "7- Return to previous menu\n");
+                   "7- Return to previous menu\n"
+                   "----------Your action----------\n");
             scanf("%d", &action);
 
             while ((action < 1) || (action > 7)) {
