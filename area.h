@@ -24,6 +24,6 @@ void erase_area(Area* area);
 void delete_area(Area* area);
 void draw_area(Area* area);
 void print_area(Area* area);
-int in_list(Pixel** p1, int nb_pixels, int x, int y);
+int in_list(Pixel** p1, int nb_pixels, int x, int y); 
 
 #endif //PROJET_C_AREA_H
