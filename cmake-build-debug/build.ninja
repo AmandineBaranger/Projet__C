@@ -94,6 +94,12 @@ build CMakeFiles/Projet_C.dir/shapes.c.o: C_COMPILER__Projet_C_Debug /Users/aman
   OBJECT_DIR = CMakeFiles/Projet_C.dir
   OBJECT_FILE_DIR = CMakeFiles/Projet_C.dir
 
+build CMakeFiles/Projet_C.dir/area.c.o: C_COMPILER__Projet_C_Debug /Users/amandine/Desktop/Projet_C/area.c || cmake_object_order_depends_target_Projet_C
+  DEP_FILE = CMakeFiles/Projet_C.dir/area.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/Projet_C.dir
+  OBJECT_FILE_DIR = CMakeFiles/Projet_C.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Projet_C
@@ -102,7 +108,7 @@ build CMakeFiles/Projet_C.dir/shapes.c.o: C_COMPILER__Projet_C_Debug /Users/aman
 #############################################
 # Link the executable Projet_C
 
-build Projet_C: C_EXECUTABLE_LINKER__Projet_C_Debug CMakeFiles/Projet_C.dir/main.c.o CMakeFiles/Projet_C.dir/point.c.o CMakeFiles/Projet_C.dir/line.c.o CMakeFiles/Projet_C.dir/square.c.o CMakeFiles/Projet_C.dir/rectangle.c.o CMakeFiles/Projet_C.dir/circle.c.o CMakeFiles/Projet_C.dir/polygon.c.o CMakeFiles/Projet_C.dir/shapes.c.o
+build Projet_C: C_EXECUTABLE_LINKER__Projet_C_Debug CMakeFiles/Projet_C.dir/main.c.o CMakeFiles/Projet_C.dir/point.c.o CMakeFiles/Projet_C.dir/line.c.o CMakeFiles/Projet_C.dir/square.c.o CMakeFiles/Projet_C.dir/rectangle.c.o CMakeFiles/Projet_C.dir/circle.c.o CMakeFiles/Projet_C.dir/polygon.c.o CMakeFiles/Projet_C.dir/shapes.c.o CMakeFiles/Projet_C.dir/area.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
   OBJECT_DIR = CMakeFiles/Projet_C.dir
   POST_BUILD = :
